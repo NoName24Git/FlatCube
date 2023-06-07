@@ -1,0 +1,14 @@
+/*Полученные значения переменных
+Значения получаются из кода игры*/
+float getvar_scale = 0;
+int getvar_xPl = 0;
+int getvar_yPl = 0;
+
+/*Изменяемые переменные.
+Если вы не хотите изменять переменную, то поставьте boolvar_названиепеременной на false.*/
+Boolean boolvar_scale = true;
+float var_scale = getvar_scale;
+Boolean boolvar_xPl = true;
+int var_xPl = 10;
+Boolean boolvar_yPl = true;
+int var_yPl = 10;
